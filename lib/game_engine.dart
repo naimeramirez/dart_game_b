@@ -2,7 +2,7 @@ import 'game_state.dart';
 import 'piece.dart';
 import 'player.dart';
 
-abstract class GameEngine {
+abstract interface class GameEngine {
   GameState get state;
 
   int throwSticks();
